@@ -10,7 +10,6 @@ class CreateListings < ActiveRecord::Migration[6.0]
       t.string :picture
       t.integer :buyer_id
       t.integer :seller_id
-      t.references :profile, foreign_key: true
 
       t.timestamps
     end
